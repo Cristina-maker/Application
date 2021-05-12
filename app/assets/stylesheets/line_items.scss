@@ -1,3 +1,17 @@
 // Place all the styles related to the LineItems controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+// @keyframe directive defines an animation (named line-item-highlight)
+@keyframes line-item-highlight {
+  0% { // start of the animation: background color bright green, the highlight color
+    background: #8f8;
+  }
+  100% { // end of the animation: no background color
+    background: none;
+  }
+}
+// define a CSS class named line-item-highlight that uses the animation attribute
+.line-item-highlight {
+  animation: line-item-highlight 1s; //animation time one second
+}
