@@ -10,3 +10,7 @@ cart = document.getElementById("cart")
 #using an alias called j()
 cart.innerHTML = "<%= j render(@cart) %>"
 #innerHTML inserts the rendered HTML into the page
+
+notice = document.getElementById("notice")
+if notice
+  notice.style.display = "none"
