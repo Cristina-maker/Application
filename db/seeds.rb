@@ -8,5 +8,5 @@ Product.create!(title: 'Seven Mobile Apps in Seven Weeks',
 
       </p>},
   image_url: '7apps.jpg',
-  price: 26.00)
+  price: 30.00)
 #
